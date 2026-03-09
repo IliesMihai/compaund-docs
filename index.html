@@ -40,6 +40,27 @@
             margin-bottom: 2rem;
         }
         a { color: #d97706; }
+        nav {
+            display: flex;
+            gap: 1.5rem;
+            padding-bottom: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-bottom: 1px solid #e7e5e4;
+            font-size: 0.925rem;
+        }
+        nav .brand {
+            font-weight: 600;
+            color: #1c1917;
+            text-decoration: none;
+            margin-right: auto;
+        }
+        nav a {
+            text-decoration: none;
+            color: #78716c;
+        }
+        nav a:hover, nav a.active {
+            color: #d97706;
+        }
         .footer {
             margin-top: 3rem;
             padding-top: 1.5rem;
@@ -51,6 +72,12 @@
 </head>
 <body>
     <div class="container">
+        <nav>
+            <a href="index.html" class="brand">Compaund</a>
+            <a href="index.html" class="active">Privacy</a>
+            <a href="support.html">Support</a>
+        </nav>
+
         <h1>Privacy Policy</h1>
         <p class="subtitle">Compaund &mdash; Build habits that stick</p>
 
